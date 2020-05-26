@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager">
+    <configuration name="KhachSanThangThienApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="KhachSanThangThien" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="DuAn2.KhachSanThangThienApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+</project>
