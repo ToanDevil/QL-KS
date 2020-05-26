@@ -27,12 +27,12 @@ function changeTime() {
 		timeout : 100000,
 		success : function(data) {
 			$("#loading").hide();
-			$("#ThoiGianThueLable").html(data.soGioThue!=null?"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Số giờ đã thuê":"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Số ngày đã thuê");
-			$("#ThoiGianThueValue").html(data.soGioThue!=null?data.soGioThue + "&nbsp;giờ":data.soNgayThue + "&nbsp;ngày");
+			$(".ThoiGianThueLable").html(data.soGioThue!=null?"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Số giờ đã thuê":"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Số ngày đã thuê");
+			$(".ThoiGianThueValue").html(data.soGioThue!=null?data.soGioThue + "&nbsp;giờ":data.soNgayThue + "&nbsp;ngày");
 			$("#tongTien").val(data.tongTien);
-			$("#tongTienTrai").html(formatNumber(data.tongTien, 0, 3, ',') + "&nbsp;VND");
+			$(".tongTienTrai").html(formatNumber(data.tongTien, 0, 3, ',') + "&nbsp;VND");
 			$("#tongTienPhai").html("Tổng tiền cần thanh toán:&nbsp;&nbsp;&nbsp;" + formatNumber(data.tongTien, 0, 3, ',') + "&nbsp;VNĐ");
-			$("#tienphong").html(formatNumber(data.tienPhong, 0, 3, ',') + "&nbsp;VND");
+			$(".tienphong").html(formatNumber(data.tienPhong, 0, 3, ',') + "&nbsp;VND");
 		}
 	});
 }

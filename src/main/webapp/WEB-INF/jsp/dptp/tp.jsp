@@ -19,7 +19,7 @@
 			</tr>
 			<tr>
 				<th>Tiền phòng</th>
-				<th id="tienphong"><fmt:formatNumber type="number" pattern="###,###" value="${tongTiendp }" /> VNĐ</th>
+				<th class="tienphong"><fmt:formatNumber type="number" pattern="###,###" value="${tongTiendp }" /> VNĐ</th>
 			</tr>
 			<tr>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ngày đặt</td>
@@ -30,10 +30,10 @@
 				<td><fmt:formatDate pattern="HH:mm" value="${getdatphong.gioDat }" /></td>
 			</tr>
 			<tr>
-				<td id="ThoiGianThueLable">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">Số ngày đã thuê</c:if> <c:if
+				<td class="ThoiGianThueLable">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">Số ngày đã thuê</c:if> <c:if
 						test="${getdatphong.loaiDat=='theogio'}"
 					>Số giờ đã thuê</c:if></td>
-				<td id="ThoiGianThueValue"><c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">${songaythue } ngày</c:if> <c:if test="${getdatphong.loaiDat=='theogio'}">${soGioThue } giờ</c:if></td>
+				<td class="ThoiGianThueValue"><c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">${songaythue } ngày</c:if> <c:if test="${getdatphong.loaiDat=='theogio'}">${soGioThue } giờ</c:if></td>
 			</tr>
 			<tr>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Đã giảm giá</td>
@@ -51,7 +51,7 @@
 			</c:forEach>
 			<tr style="color: red;">
 				<th>Tổng tiền cần thanh toán</th>
-				<th id="tongTienTrai"><fmt:formatNumber type="number" pattern="###,###" value="${tongTien }" /> VNĐ</th>
+				<th class="tongTienTrai"><fmt:formatNumber type="number" pattern="###,###" value="${tongTien }" /> VNĐ</th>
 			</tr>
 		</table>
 	</div>
@@ -74,7 +74,7 @@
 			</tr>
 			<tr>
 				<th>Tiền phòng</th>
-				<th id="tienphong"><fmt:formatNumber type="number" pattern="###,###" value="${tongTiendp }" /> VNĐ</th>
+				<th class="tienphong"><fmt:formatNumber type="number" pattern="###,###" value="${tongTiendp }" /> VNĐ</th>
 			</tr>
 			<tr>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ngày đặt</td>
@@ -85,10 +85,10 @@
 				<td><fmt:formatDate pattern="HH:mm" value="${getdatphong.gioDat }" /></td>
 			</tr>
 			<tr>
-				<td id="ThoiGianThueLable">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">Số ngày đã thuê</c:if> <c:if
+				<td class="ThoiGianThueLable">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">Số ngày đã thuê</c:if> <c:if
 						test="${getdatphong.loaiDat=='theogio'}"
 					>Số giờ đã thuê</c:if></td>
-				<td id="ThoiGianThueValue"><c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">${songaythue } ngày</c:if> <c:if test="${getdatphong.loaiDat=='theogio'}">${soGioThue } giờ</c:if></td>
+				<td class="ThoiGianThueValue"><c:if test="${getdatphong.loaiDat=='theongay' || getdatphong.loaiDat=='homestay'}">${songaythue } ngày</c:if> <c:if test="${getdatphong.loaiDat=='theogio'}">${soGioThue } giờ</c:if></td>
 			</tr>
 			<tr>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Đã giảm giá</td>
@@ -106,7 +106,7 @@
 			</c:forEach>
 			<tr style="color: red;">
 				<th>Tổng tiền cần thanh toán</th>
-				<th id="tongTienTrai"><fmt:formatNumber type="number" pattern="###,###" value="${tongTien }" /> VNĐ</th>
+				<th class="tongTienTrai"><fmt:formatNumber type="number" pattern="###,###" value="${tongTien }" /> VNĐ</th>
 			</tr>
 		</table>
 	</div>
