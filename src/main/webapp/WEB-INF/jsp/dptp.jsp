@@ -179,9 +179,9 @@ width: 100%;
 										<div>
 											<a class="class-thao-tac" href="actionclickdptp?maPhong=${u.maPhong }&trangThai=${u.trangThai }&soPhong=${u.soPhong }">Thuê thường</a>
 										</div>
-										<div>
+										<%-- <div>
 											<a class="class-thao-tac" href="homestay?maPhong=${u.maPhong }&trangThai=${u.trangThai }&soPhong=${u.soPhong }">HomeStay</a>
-										</div>
+										</div> --%>
 										<div>
 											<a class="class-thao-tac" href="dslichdatphong?maPhong=${u.maPhong }&soPhong=${u.soPhong }">Đặt lịch</a>
 										</div>

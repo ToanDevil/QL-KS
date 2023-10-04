@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class KhachSanThangThienApplication extends SpringBootServletInitializer {
+public class KhachSanTienToanApplication extends SpringBootServletInitializer {
 
 	@PostConstruct
     public void init(){
@@ -17,6 +17,6 @@ public class KhachSanThangThienApplication extends SpringBootServletInitializer 
     }
 	
 	public static void main(String[] args) {
-		SpringApplication.run(KhachSanThangThienApplication.class, args);
+		SpringApplication.run(KhachSanTienToanApplication.class, args);
 	}
 }

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-KhachSanTienToanApplication<KhachSanTienToan>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "DuAn2.KhachSanTienToanApplication",
+            "projectName": "KhachSanTienToan",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
